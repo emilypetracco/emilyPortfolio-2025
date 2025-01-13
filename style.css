@@ -695,21 +695,9 @@ footer {
         margin-left: 0;
     }
 
-    .comingSoon {
-        display: flex;
-        justify-self: center;
-        width: 100%;
-    }
-
     .contact {
         width: 70%;
         left: -12rem;
-    }
-
-    .contactEnvelope {
-        width: 40%;
-        display: flex;
-        justify-self: center;
     }
 }
 
