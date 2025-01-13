@@ -550,7 +550,7 @@ footer {
 .contactEnvelope {
     width: 40%;
     display: flex;
-    justify-self: center !important;
+    justify-self: center;
 }
 
 .contact p {
@@ -610,7 +610,6 @@ footer {
     }
 
     .projects h3 {
-        text-align: center;
         margin-top: 8rem;
     }
 
@@ -696,9 +695,21 @@ footer {
         margin-left: 0;
     }
 
+    .comingSoon {
+        display: flex;
+        justify-self: center;
+        width: 100%;
+    }
+
     .contact {
         width: 70%;
         left: -12rem;
+    }
+
+    .contactEnvelope {
+        width: 40%;
+        display: flex;
+        justify-self: center;
     }
 }
 
@@ -723,10 +734,6 @@ footer {
 
     h2 {
         font-size: 2rem;
-    }
-
-    .comingSoon {
-        width: 100%;
     }
 
     .contact {
