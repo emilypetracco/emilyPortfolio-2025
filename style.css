@@ -652,6 +652,8 @@ footer {
     }
 
     .comingSoon {
+        display: flex;
+        justify-self: center;
         width: 70%;
     }
 
